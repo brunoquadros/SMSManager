@@ -1,0 +1,29 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecionar Contato"
+        android:id="@+id/selecionarcont"
+        android:layout_gravity="center_horizontal|top" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send!"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|top" />
+</LinearLayout>
